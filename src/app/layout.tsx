@@ -3,7 +3,7 @@ import { poppins } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fullstack - Gabriel",
+  title: "Portfolio - Gabriel",
   description: "Portfólio do Desenvolvedor Fullstack Gabriel",
 };
 

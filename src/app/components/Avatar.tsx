@@ -3,7 +3,7 @@ import photo from "../assets/photo.png";
 
 export default function Avatar() {
   return (
-    <main className='mt-4 flex items-center justify-center'>
+    <main className='flex items-center justify-center'>
       <div className='absolute z-10 mr-16 flex h-40 w-40 rounded-full border border-sky-900 bg-gradient-to-b from-sky-400 to-sky-700'></div>
       <Image
         src={photo}
