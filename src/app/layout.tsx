@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang='pt-br'>
       <body
-        className={`${poppins.className} h-full bg-gradient-to-b from-sky-200 to-sky-400 bg-cover bg-no-repeat`}>
+        className={`${poppins.className} h-screen bg-gradient-to-b from-sky-200 to-sky-400 bg-cover bg-no-repeat`}>
         {children}
       </body>
     </html>

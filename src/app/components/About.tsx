@@ -24,7 +24,7 @@ export default function About() {
       <h1 className='animate-fade-right bg-gradient-to-b from-sky-600 to-sky-900 bg-clip-text text-center text-3xl font-bold text-transparent'>
         Desenvolvedor Full-Stack
       </h1>
-      <h2 className='mt-2 animate-fade-left text-center text-2xl text-sky-100'>
+      <h2 className='mt-2 animate-fade-left text-center text-2xl font-semibold text-sky-50'>
         Gabriel Tegani
       </h2>
       <p className='ml-8 mr-8 mt-2 animate-fade-left bg-gradient-to-b from-sky-700 to-sky-900 bg-clip-text text-center text-base text-transparent animate-normal animate-fill-forwards animate-ease-in-out'>
