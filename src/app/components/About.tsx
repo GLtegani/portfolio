@@ -27,7 +27,7 @@ export default function About() {
         </span>
       </h1>
       <h2 className='animate-fade-right text-center text-4xl font-bold'>
-        <span className='bg-gradient-to-tr from-blue-300 via-blue-800 to-blue-300 bg-clip-text text-transparent animate-reverse'>
+        <span className='animate-textReverse bg-gradient-to-tr from-blue-300 via-blue-800 to-blue-300 bg-clip-text text-transparent'>
           Full-Stack
         </span>
       </h2>

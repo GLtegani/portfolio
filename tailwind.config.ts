@@ -11,7 +11,7 @@ const config: Config = {
       animation: {
         text: "text 5s ease infinite",
         bg: "text 15s ease infinite",
-        teste: "text 5s ease infinite reverse",
+        textReverse: "text 5s ease infinite reverse",
       },
       keyframes: {
         text: {
