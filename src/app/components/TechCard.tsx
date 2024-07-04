@@ -21,7 +21,7 @@ interface TechCardProps {
 export default function TechCard({ skill }: TechCardProps) {
   return (
     <div
-      className={`flex items-center justify-center rounded-lg bg-sky-50 p-1 transition duration-300 ease-in-out hover:scale-125 ${skill.type === IoLogoJavascript && "text-yellow-500"} text-xl ${skill.type === FaReact && "text-sky-400"} ${skill.type === BiLogoTypescript && "text-sky-700"} ${skill.type === RiTailwindCssFill && "text-sky-400"} ${skill.type === SiStyledcomponents && "text-pink-500"} `}>
+      className={`flex items-center justify-center rounded-lg bg-sky-50 p-1 transition duration-300 ease-in-out hover:scale-125 ${skill.type === IoLogoJavascript && "text-yellow-500"} text-2xl ${skill.type === FaReact && "text-sky-400"} ${skill.type === BiLogoTypescript && "text-sky-700"} ${skill.type === RiTailwindCssFill && "text-sky-400"} ${skill.type === SiStyledcomponents && "text-pink-500"} `}>
       {skill as ReactNode}
     </div>
   );

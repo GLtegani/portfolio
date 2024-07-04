@@ -21,17 +21,24 @@ export default function About() {
 
   return (
     <div className='flex flex-col items-center'>
-      <h1 className='animate-fade-right bg-gradient-to-b from-sky-600 to-sky-900 bg-clip-text text-center text-3xl font-bold text-transparent'>
-        Desenvolvedor Full-Stack
+      <h1 className='animate-fade-right bg-gradient-to-b from-sky-600 to-sky-900 bg-clip-text text-center text-4xl font-bold text-transparent'>
+        <span className='animate-text bg-gradient-to-tr from-sky-200 via-blue-600 to-sky-200 bg-clip-text'>
+          Desenvolvedor
+        </span>
       </h1>
-      <h2 className='mt-2 animate-fade-left text-center text-2xl font-semibold text-sky-50'>
+      <h2 className='animate-fade-right bg-gradient-to-b from-sky-600 to-sky-900 bg-clip-text text-center text-4xl font-bold text-transparent'>
+        <span className='animate-text bg-gradient-to-tr from-sky-200 via-blue-600 to-sky-200 bg-clip-text'>
+          Full-Stack
+        </span>
+      </h2>
+      <h2 className='mt-2 animate-fade-left text-center text-3xl font-semibold text-sky-100'>
         Gabriel Tegani
       </h2>
-      <p className='ml-8 mr-8 mt-2 animate-fade-left bg-gradient-to-b from-sky-700 to-sky-900 bg-clip-text text-center text-base text-transparent animate-normal animate-fill-forwards animate-ease-in-out'>
+      <p className='ml-8 mr-8 mt-2 animate-fade-left bg-gradient-to-b from-sky-700 to-sky-900 bg-clip-text text-center text-lg text-transparent animate-normal animate-fill-forwards animate-ease-in-out'>
         Com experiência no desenvolvimento de sites e soluções completas para o
         seu negócio.
       </p>
-      <div className='mt-3 flex animate-fade items-center justify-center gap-2'>
+      <div className='mt-3 flex animate-fade items-center justify-center gap-2 animate-duration-[2200ms]'>
         {techs.map((tech) => (
           <TechCard
             key={uuidv4()}
