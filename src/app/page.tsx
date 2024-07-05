@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className='mb-3 animate-fade-left'>
+      <footer className='mb-3 mt-12 animate-fade-left'>
         <ClaimFooter />
       </footer>
     </div>
