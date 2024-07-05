@@ -4,10 +4,11 @@ import {RiNextjsFill} from "react-icons/ri";
 import {BiLogoTypescript} from "react-icons/bi";
 import {RiTailwindCssFill} from "react-icons/ri";
 import {SiStyledcomponents} from "react-icons/si";
-import {FaJava} from "react-icons/fa";
 import {IoLogoJavascript} from "react-icons/io5";
 import {v4 as uuidv4} from "uuid";
 import {ubuntu} from "../fonts";
+import javaIcon from "@/public/assets/java.png";
+import Image from "next/image";
 
 export default function About() {
   const techs = [
@@ -16,7 +17,6 @@ export default function About() {
     <BiLogoTypescript key={uuidv4()} />,
     <RiTailwindCssFill key={uuidv4()} />,
     <SiStyledcomponents key={uuidv4()} />,
-    <FaJava key={uuidv4()} />,
     <IoLogoJavascript key={uuidv4()} />,
   ];
 
@@ -62,6 +62,14 @@ export default function About() {
             skill={tech}
           />
         ))}
+        <TechCard>
+          <Image
+            src={javaIcon}
+            alt='Java icon'
+            width={100}
+            height={100}
+          />
+        </TechCard>
       </div>
     </div>
   );
