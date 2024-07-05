@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { poppins } from "./fonts";
+import type {Metadata} from "next";
+import {poppins} from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang='pt-br'>
       <body
-        className={`${poppins.className} animate-bg bg-gradient-to-br from-blue-900 via-blue-200 to-blue-900`}>
+        className={`${poppins.className} animate-bg bg-gradient-to-br from-blue-900 via-blue-200
+          to-blue-900`}
+      >
         {children}
       </body>
     </html>

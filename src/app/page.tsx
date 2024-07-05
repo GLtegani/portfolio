@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Avatar from "./components/Avatar";
-import NavButtons from "./components/NavButtons";
+import ClaimFooter from "./components/ClaimFooter";
+import NavButtons from "./components/NavButton";
 
 export default function Home() {
   return (
@@ -11,10 +12,13 @@ export default function Home() {
 
       <main>
         <About />
+        <div className='mt-6 animate-fade-up'>
+          <NavButtons />
+        </div>
       </main>
 
-      <footer className='mb-3 animate-fade-up'>
-        <NavButtons />
+      <footer className='mb-3 animate-fade-left'>
+        <ClaimFooter />
       </footer>
     </div>
   );
