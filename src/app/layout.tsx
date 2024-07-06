@@ -20,8 +20,8 @@ export default function RootLayout({
           via-blue-200 to-blue-900 bg-cover bg-no-repeat`}
       >
         <h1
-          className='mx-auto mb-8 mt-4 w-24 animate-fade-down cursor-pointer border border-black p-0
-            text-center text-3xl animate-duration-1000'
+          className='mx-auto mb-8 mt-4 w-24 animate-fade-down cursor-pointer text-center text-3xl
+            font-bold text-white animate-duration-1000'
         >
           <Link href='/'>&lt;GL &frasl;&gt;</Link>
         </h1>
