@@ -5,7 +5,6 @@
 // import {RiTailwindCssFill} from "react-icons/ri";
 // import {SiStyledcomponents} from "react-icons/si";
 // import {IoLogoJavascript} from "react-icons/io5";
-// import {v4 as uuidv4} from "uuid";
 import Link from "next/link";
 import {ubuntu} from "../fonts";
 // import javaIcon from "@/public/assets/java.png";
@@ -51,7 +50,7 @@ export default function About() {
         <ul className='flex flex-row gap-3'>
           <li className='transition duration-300 ease-in-out hover:scale-110'>
             <Link
-              className='text-3xl'
+              className='text-3xl outline-8 outline-offset-2 outline-sky-800'
               href='https://www.github.com/GLtegani'
               target='_blank'
             >
@@ -60,7 +59,7 @@ export default function About() {
           </li>
           <li className='transition duration-300 ease-in-out hover:scale-110'>
             <Link
-              className='text-3xl text-sky-700'
+              className='text-3xl text-sky-700 outline-8 outline-offset-2 outline-sky-800'
               href='https://www.linkedin.com/in/gabriel-tegani'
               target='_blank'
             >
@@ -93,14 +92,20 @@ export default function About() {
               />
             </TechCard> */}
       </nav>
-      <p
+      <div
         className={`mx-4 mt-3 animate-fade-left bg-gradient-to-b from-blue-800 to-blue-950
           bg-clip-text text-center text-xl text-transparent animate-normal
           animate-fill-forwards animate-ease-in-out`}
       >
-        Com experiência no desenvolvimento de sites e soluções completas para o
-        seu negócio.
-      </p>
+        <p>
+          Com experiência no desenvolvimento de sites e soluções completas para
+          o seu negócio.
+        </p>
+        <p>Conhecimentos em:</p>
+        <p className='font-bold'>
+          React.js, Next.js, Typescript, Tailwind CSS, Styled-components, Java
+        </p>
+      </div>
     </div>
   );
 }

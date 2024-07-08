@@ -16,10 +16,6 @@ export default function Home() {
           <NavButtons />
         </div>
       </main>
-
-      <footer className='mb-3 mt-12 animate-fade-left'>
-        <ClaimFooter />
-      </footer>
     </div>
   );
 }

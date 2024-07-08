@@ -11,7 +11,7 @@ export default function Avatar() {
       <Image
         src={photo}
         alt='Foto profissional do desenvolvedor Gabriel'
-        className='absolute z-20 mr-16 mt-4 w-48 rounded-full'
+        className='absolute z-20 mr-16 mt-6 w-48 rounded-full'
         priority
       />
       <div
