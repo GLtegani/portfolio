@@ -23,11 +23,10 @@ export default function TechCard({skill, children}: TechCardProps) {
     return (
       <div
         className={`flex h-9 w-9 items-center justify-center rounded-lg bg-sky-50 p-1 text-2xl
-          transition duration-300 ease-in-out hover:scale-125 ${ skill.type ===
-          IoLogoJavascript && "text-yellow-500" } ${ skill.type === FaReact &&
-          "text-sky-400" } ${skill.type === BiLogoTypescript && "text-sky-700"} ${
-          skill.type === RiTailwindCssFill && "text-sky-400" } ${skill.type ===
-          SiStyledcomponents && "text-pink-500"} `}
+          ${skill.type === IoLogoJavascript && "text-yellow-500"} ${ skill.type ===
+          FaReact && "text-sky-400" } ${skill.type === BiLogoTypescript && "text-sky-700"}
+          ${skill.type === RiTailwindCssFill && "text-sky-400"} ${ skill.type ===
+          SiStyledcomponents && "text-pink-500" } `}
       >
         {skill as ReactNode}
       </div>
@@ -35,8 +34,9 @@ export default function TechCard({skill, children}: TechCardProps) {
   } else {
     return (
       <div
-        className={`flex w-9 items-center justify-center rounded-lg bg-sky-50 p-1 transition
-          duration-300 ease-in-out hover:scale-125`}
+        className={
+          "flex w-9 items-center justify-center rounded-lg bg-sky-50 p-1"
+        }
       >
         {children}
       </div>

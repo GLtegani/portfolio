@@ -8,7 +8,7 @@ import {SiStyledcomponents} from "react-icons/si";
 import {v4 as uuidv4} from "uuid";
 import javaIcon from "@/public/assets/java.png";
 
-import TechCard from "@/app/components/TechCard";
+import TechCard from "./TechCard";
 import Link from "next/link";
 
 interface CardProps {

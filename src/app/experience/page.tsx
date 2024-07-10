@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
       <h1>Experience</h1>
     </div>
   );
