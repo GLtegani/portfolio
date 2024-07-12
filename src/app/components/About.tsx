@@ -26,7 +26,7 @@ export default function About() {
     <div>
       <h1 className='animate-fade-right text-center text-4xl font-bold'>
         <span
-          className={`animate-text bg-gradient-to-tr from-blue-300 via-blue-800 to-blue-300
+          className={`bg-gradient-to-tr animate-text from-blue-300 via-blue-800 to-blue-300
             bg-clip-text text-transparent`}
         >
           Desenvolvedor
@@ -34,7 +34,7 @@ export default function About() {
       </h1>
       <h2 className='animate-fade-right text-center text-4xl font-bold'>
         <span
-          className='animate-textReverse bg-gradient-to-tr from-blue-300 via-blue-800 to-blue-300
+          className='bg-gradient-to-tr animate-textReverse from-blue-300 via-blue-800 to-blue-300
             bg-clip-text text-transparent'
         >
           Full-Stack
@@ -93,7 +93,7 @@ export default function About() {
             </TechCard> */}
       </nav>
       <div
-        className={`mx-4 mt-3 animate-fade-left bg-gradient-to-b from-blue-800 to-blue-950
+        className={`bg-gradient-to-b mx-4 mt-3 animate-fade-left from-blue-800 to-blue-950
           bg-clip-text text-center text-xl text-transparent animate-normal
           animate-fill-forwards animate-ease-in-out`}
       >

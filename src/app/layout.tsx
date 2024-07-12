@@ -1,8 +1,9 @@
 import type {Metadata} from "next";
-import {poppins} from "./fonts";
+import {quicksand, poppins} from "./fonts";
 import "./globals.css";
 import Link from "next/link";
 import ClaimFooter from "./components/ClaimFooter";
+import {CiLight, CiDark} from "react-icons/ci";
 
 export const metadata: Metadata = {
   title: "Portfolio - Gabriel",
@@ -17,20 +18,25 @@ export default function RootLayout({
   return (
     <html lang='pt-br'>
       <body
-        className={`${poppins.className} h-full animate-bg bg-gradient-to-br from-blue-900
-          via-blue-200 to-blue-900 bg-cover bg-no-repeat`}
+        className={`${poppins.className} h-full bg-custom-gradient bg-cover bg-no-repeat`}
       >
-        <h1
-          className='mx-auto mb-8 mt-4 w-24 animate-fade-down cursor-pointer text-center text-3xl
-            font-bold text-white animate-duration-1000'
+        <header
+          className={`mx-auto ${quicksand.className} mb-8 mt-4 flex animate-fade-down items-center
+            justify-center gap-8 font-semibold text-white animate-duration-1000`}
         >
-          <Link
-            href='/'
-            className='focus:rounded-full focus:outline-none focus:ring focus:ring-sky-800'
-          >
-            &lt;GL &frasl;&gt;
-          </Link>
-        </h1>
+          <h1 className='text-3xl'>
+            <Link
+              href='/'
+              className='focus:rounded-full focus:outline-none focus:ring focus:ring-sky-800'
+            >
+              &lt;GL &frasl;&gt;
+            </Link>
+          </h1>
+
+          <button className='rounded-full border border-white p-1 text-2xl hover:bg-white hover:text-black'>
+            <CiDark />
+          </button>
+        </header>
         {children}
         <footer className='mb-3 mt-12 animate-fade-left text-center'>
           <ClaimFooter />
