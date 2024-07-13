@@ -1,4 +1,4 @@
-import {Poppins, Ubuntu, Quicksand} from "next/font/google";
+import {Poppins, Ubuntu, Quicksand, Fira_Mono} from "next/font/google";
 
 export const poppins = Poppins({
   subsets: ["latin"],
@@ -11,6 +11,11 @@ export const ubuntu = Ubuntu({
 });
 
 export const quicksand = Quicksand({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+export const firaMono = Fira_Mono({
   subsets: ["latin"],
   weight: ["400", "700"],
 });

@@ -22,7 +22,7 @@ export default function RootLayout({
       >
         <header
           className={`mx-auto ${quicksand.className} mb-8 mt-4 flex animate-fade-down items-center
-            justify-center gap-8 font-semibold text-white animate-duration-1000`}
+            justify-center gap-8 text-white animate-duration-1000`}
         >
           <h1 className='text-3xl'>
             <Link

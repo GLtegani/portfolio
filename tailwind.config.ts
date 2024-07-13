@@ -40,6 +40,8 @@ const config: Config = {
         "radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37,78,1) 0%, rgba(4,56,126,1) 19.7%, rgba(85,245,221,1) 100.2% )",
       "custom-bg-avatar-2-dark":
         "radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );",
+      "custom-gradient-text":
+        "linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%)",
     },
   },
   plugins: [require("tailwindcss-animated")],
